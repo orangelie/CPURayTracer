@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\parksangwo\Desktop\demos\03_Raytracing\03_Raytracing_Step2_CircleScreenSpace\x64\Debug\03_Raytracing_Step2_CircleScreenSpace.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\parksangwo\Desktop\demos\03_Raytracing\03_Raytracing_Step2_CircleScreenSpace\x64\Debug\PS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\parksangwo\Desktop\demos\03_Raytracing\03_Raytracing_Step2_CircleScreenSpace\x64\Debug\VS.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
