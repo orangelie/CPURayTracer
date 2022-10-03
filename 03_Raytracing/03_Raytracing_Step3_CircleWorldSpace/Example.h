@@ -55,7 +55,14 @@ public:
 		// 여기서 우리가 정의한 월드(World) 좌표계는 [-aspect, +aspect] x [-1, +1]
 		// 화면비율 aspect = float(width) / height
 
-		return glm::vec2(0.0f, 0.0f);
+		float w = static_cast<float>(width);
+		float h = static_cast<float>(height);
+		float aspectRatio = w / h;
+
+		float xScale = (2.0f * aspectRatio) / (w - 1.0f);
+		float yScale = (2.0f) / (h - 1.0f);
+
+		return glm::vec2(positionScreen.x * xScale - aspectRatio, positionScreen.y * yScale - 1.0f);
 	}
 
 	void Update()
